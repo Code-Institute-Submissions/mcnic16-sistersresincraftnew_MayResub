@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    height: 100vh;
+    height: auto;
     width: 100%;
     padding: 0;
     color: #FFF;
@@ -10,6 +10,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    color: black;
 }
 /*-------------------------------------------Navigation Bar-----------*/
 .navmenu {
@@ -28,6 +29,7 @@ body {
     background-color: purple;
     transition: 1s;
 }
+/*------------------------------------------Sister Resin Craft Logo-----------*/
 .logo {
     text-align: center;
 }
@@ -35,5 +37,26 @@ body {
     border-radius: 8px;
     border: 8px solid #fff;
 }
+/*------------------------------------------welcome Message-----------*/
+.welcome-message {
+    text-align: center;
+    font-size: 20px;
+}
+
+.coasters img {
+    height: 400px;
+    width: 400px;
+    
+}
+.column {
+     float: left;
+    width: 33.3%;
+    padding: 0;
+  }
+    
+  
+    
+
+
 
 
