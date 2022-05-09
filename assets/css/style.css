@@ -1,0 +1,39 @@
+
+
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    color: #FFF;
+     background-image: linear-gradient(135deg, #9f05ff69 10%, #fd5e086b 100%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/*-------------------------------------------Navigation Bar-----------*/
+.navmenu {
+    padding: 5px;
+    overflow: hidden;
+    color: #eee;
+}
+
+.navmenu a {
+    padding: 14px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+.navmenu a:hover {
+    background-color: purple;
+    transition: 1s;
+}
+.logo {
+    text-align: center;
+}
+.logo img {
+    border-radius: 8px;
+    border: 8px solid #fff;
+}
+
+
