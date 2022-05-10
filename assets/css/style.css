@@ -34,8 +34,10 @@ body {
 }
 .logo img {
     border-radius: 8px;
-    border: 8px solid #fff;
+    border: 8px solid #fff
+    
 }
+
 /*------------------------------------------welcome Message-----------*/
 .welcome-message {
     text-align: center;
