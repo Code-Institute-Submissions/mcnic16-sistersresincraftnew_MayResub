@@ -68,8 +68,15 @@ text-align: left;
     padding: 0;
   }
    /*------------------------------------------footer-----------*/
-  footer {
+   footer {
+    clear: both;
     text-align: center;
-    padding: 3px;
+    padding: 5px;
+    background-color: DarkSalmon;
+    color: white;
+  }
+  footer a{
+    font-size: 30px;
+    padding:5px;
   }
 
