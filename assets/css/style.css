@@ -81,4 +81,21 @@ text-align: left;
     font-size: 30px;
     padding:5px;
   }
+/*---------------------------------------media-queiries-----------------*/
 
+  @media screen and (max-width: 920px) 
+  {
+      body{
+        margin: 0;
+        height: auto;
+        width: 100%;
+      }
+    .logo img{
+        height:50%;
+        width:50%;
+    }
+    .coasters img {
+        height: 100px;
+        width: 100px;
+       }
+}
