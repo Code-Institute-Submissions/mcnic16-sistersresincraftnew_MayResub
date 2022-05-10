@@ -49,41 +49,23 @@ body {
     overflow: hidden;
 }
 .coasters img {
-    
-    height: 350px;
-    width: 350px;
-    
-
-}
+     height: 350px;
+     width: 350px;
+    }
 .coasters {
     margin: 5px;
-    
     float: left;
 }
 
-.desc {
-    padding: 5px;
-    text-align: center;
-}
-    
-    
+.description{
+padding: 0;
+text-align: left;
 
-}
-    .description{
-
-        padding: 15px;
-        text-align: center;
 }
 .column {
-     float: left;
+    float: left;
     width: 33.3%;
     padding: 0;
   }
    
-  coasters1 {
-    overflow: hidden;
-    height: 350px;
-    width: 350px;
-   
-   
-  }
+ 
