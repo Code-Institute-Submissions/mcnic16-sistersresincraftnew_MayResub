@@ -45,10 +45,7 @@ body {
 }
 /*------------------------------------------Coasters Section-----------*/
 
-.container {
-    margin: 5px;
-    overflow: hidden;
-}
+
 .coasters img {
      height: 350px;
      width: 350px;
@@ -85,17 +82,54 @@ text-align: left;
 
   @media screen and (max-width: 920px) 
   {
-      body{
+      
+    html, body {
+        overflow-x: hidden;
+      }
+    body{
+        padding:0;
         margin: 0;
         height: auto;
-        width: 100%;
+        width: auto;
+        position: relative
       }
     .logo img{
-        height:50%;
-        width:50%;
+        height:40%;
+        width:40%;
+    }
+    .navmenu a {
+        padding: 14px 15px;
+    
+        font-size: 14px;
+        color: black;
+    }
+    .welcome-message{
+        font-size: 18px;
+        width:100%;
+
+    }
+
+    .description{
+        padding: 0;
+        text-align: left;
+    }
+
+    .column{
+        width: 100%;
+       
     }
     .coasters img {
+        display:block;
+        margin:0 auto;
         height: 100px;
         width: 100px;
-       }
+    }
+
+    .description {
+        text-align: center;
+    }
+       footer a{
+        font-size: 20px;
+        padding:10px;
+      }
 }
