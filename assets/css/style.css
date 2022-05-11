@@ -74,6 +74,10 @@ text-align: left;
     text-align: center;
     font-size: 20px;
 }
+
+.aboutusheading {
+    font-size: 40px;
+}
 .list {
     text-align: center;
 }
