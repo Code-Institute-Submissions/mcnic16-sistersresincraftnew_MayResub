@@ -85,6 +85,27 @@ text-align: left;
     display: inline-block;
     text-align: left;
 }
+
+/*-------------------------------------Review Page----------------*/
+
+
+.checked {
+    color: orange;
+  }
+
+  .reviews {
+      text-align: center;
+  }
+
+  .picreview img {
+      height: 150px;
+      width: 150px;
+  }
+
+  .reviewlink  {
+      font-size: 20px;
+
+  }
    /*------------------------------------------footer-----------*/
    footer {
     clear: both;
