@@ -140,7 +140,8 @@ text-align: left;
         margin: 0;
         height: auto;
         width: auto;
-        position: relative
+        position: relative;
+        
       }
     .logo img{
         height:40%;
@@ -148,21 +149,23 @@ text-align: left;
     }
     .navmenu a {
         padding: 14px 15px;
-    
-        font-size: 14px;
+         font-size: 20px;
         color: black;
     }
     .welcome-message{
-        font-size: 18px;
+        font-size: 25px;
         width:100%;
 
     }
 
-    .description{
-        padding: 0;
-        text-align: left;
+    .reviewlink  {
+        
+        font-size: 20px;
+  
     }
-
+    .description{
+       font-size: 25px;
+    }
     .column{
         width: 50%;
        
@@ -170,13 +173,10 @@ text-align: left;
     .coasters img {
         display:block;
         margin:0 auto;
-        height: 100px;
-        width: 100px;
+        height: 250px;
+        width: 250px;
     }
 
-    .description {
-        text-align: center;
-    }
        footer a{
         font-size: 20px;
         padding:10px;
@@ -192,4 +192,3 @@ text-align: left;
        
     }
 }
-   
