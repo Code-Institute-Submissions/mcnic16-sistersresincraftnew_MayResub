@@ -121,7 +121,6 @@ body {
 .reviewlink {
     text-align: center;
     font-size: 17px;
-
 }
 
 /*------------------------------------------footer-----------*/
@@ -153,7 +152,6 @@ footer a {
         height: auto;
         width: auto;
         position: relative;
-
     }
 
     .logo img {
@@ -170,13 +168,10 @@ footer a {
     .welcome-message {
         font-size: 25px;
         width: 100%;
-
     }
 
     .reviewlink {
-
         font-size: 20px;
-
     }
 
     .description {
@@ -208,5 +203,5 @@ footer a {
 @media screen and (max-width: 830px) {
     .column {
         width: 100%;
- }
+    }
 }
