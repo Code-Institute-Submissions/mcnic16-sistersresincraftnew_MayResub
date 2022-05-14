@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Playfair+Display:ital@1&display=swap');
 html, body {
     overflow-x: hidden;
   }
@@ -12,6 +12,7 @@ body {
     background-position: center;
     background-size: cover;
     color: black;
+    font-family: 'Playfair Display', serif;
 }
 /*-------------------------------------------Navigation Bar-----------*/
 .navmenu {
@@ -27,6 +28,7 @@ body {
     color: black;
 }
 .navmenu a:hover {
+    color:#eee;
     background-color: purple;
     transition: 1s;
 }
@@ -45,12 +47,18 @@ body {
     text-align: center;
     font-size: 20px;
 }
+.headings {
+    text-align: center;
+    
+    font-size: 2em ;
+}
+
 /*------------------------------------------Coasters Section-----------*/
 
 
 .coasters img {
-     height: 350px;
-     width: 350px;
+     height: 15em;
+     width: 15em;
     }
 .coasters {
     margin: 5px;
@@ -98,8 +106,8 @@ text-align: left;
   }
 
   .picreview img {
-      height: 150px;
-      width: 150px;
+      height: 250px;
+      width: 250px;
   }
 
   .reviewlink  {
@@ -121,7 +129,7 @@ text-align: left;
   }
 /*---------------------------------------media-queiries-----------------*/
 
-  @media screen and (max-width: 920px) 
+  @media screen and (max-width: 1075px) 
   {
       
     html, body {
@@ -156,7 +164,7 @@ text-align: left;
     }
 
     .column{
-        width: 100%;
+        width: 50%;
        
     }
     .coasters img {
@@ -177,5 +185,11 @@ text-align: left;
     .aboutus {
         font-size: 25px;
 }
-
+@media screen and (max-width: 800px) 
+  {
+    .column{
+        width: 100%;
+       
+    }
 }
+   
